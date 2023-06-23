@@ -1,173 +1,174 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  body {
-    margin: 0 auto;
-  }
-  
-  .container {
-    max-width: 1152px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
-  
-  .container-header {
-    padding-top: 27px;
-  }
-  
-  .header-right {
-    display: flex;
-    float: right;
-  }
-  
-  .header-right a {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 29px;
-    color: #000000;
-    margin-right: 29px;
-  }
-  
-  .header-right a:hover {
-    background-color: transparent;
-    border-radius: 10px;
-    padding: 5px;
-    transition: 0.5s;
-  }
-  
-  .container-main {
-    justify-content: center;
-  }
-  
-  .mainlist h1 {
-    font-style: bold;
-    font-size: 44px;
-    line-height: 60px;
-    color: #21243d;
-    padding-top: 106px;
-    padding-bottom: 55px;
-  }
-  
-  .mainlist {
-    padding-right: 235px;
-    padding-left: 235px;
-  }
-  
-  .mainlist h2 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 44px;
-    color: #21243d;
-  }
-  
-  .year {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    margin-top: 16px;
-    margin-bottom: 15px;
-  }
-  
-  .vector {
-    border: 1px #000000;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  
-  .list {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: left;
-  }
-  
-  .line {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    color: #8695a4;
-  }
-  
-  .borderline {
-    margin-top: 29px;
-    margin-bottom: 32px;
-    border: 1px solid #eaeaea;
-  }
-  
-  .footer {
-    width: 1152px;
-    height: 182px;
-    margin: 0 auto;
-  }
-  
-  .container-footer {
-    text-align: center;
-    padding-top: 104px;
-  }
-  
-  .footer-icon a {
-    text-align: center;
-    position: relative;
-  }
-  
-  .facebook {
-      margin-right: 35px;
-  }
-  
-  .instagram {
-      margin-right: 35px;
-  }
-  
-  .twitter {
-      margin-right: 35px;
-  }
-  
-  .facebook:hover {
-    background-color: transparent;
-    border-radius: 5px;
-    padding: 10px;
-    transition: 0.5s;
-  }
-  
-  .instagram:hover {
-    background-color: transparent;
-    border-radius: 5px;
-    padding: 10px;
-    transition: 0.5s;
-  }
-  
-  .twitter:hover {
-    background-color: transparent;
-    border-radius: 5px;
-    padding: 10px;
-    transition: 0.5s;
-  }
-  
-  .linkedin:hover {
-    background-color: transparent;
-    border-radius: 5px;
-    padding: 10px;
-    transition: 0.5s;
-  }
-  
-  
-  .footer-end {
-    text-align: center;
-    padding-top: 26px;
-    padding-bottom: 54px;
-  }
-  
-  .menu-icon {
-      display: none;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1152px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container-header {
+  padding-top: 27px;
+}
+
+.header-right {
+  display: flex;
+  float: right;
+}
+
+.header-right a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+  margin-right: 29px;
+}
+
+.header-right a:hover {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+.container-main {
+  justify-content: center;
+}
+
+.mainlist h1 {
+  font-style: bold;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+  padding-top: 106px;
+  padding-bottom: 55px;
+}
+
+.mainlist {
+  padding-right: 235px;
+  padding-left: 235px;
+}
+
+.mainlist h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243d;
+}
+
+.year {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  margin-top: 16px;
+  margin-bottom: 15px;
+}
+
+.vector {
+  border: 1px #000000;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.line {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+}
+
+.borderline {
+  margin-top: 29px;
+  margin-bottom: 32px;
+  border: 1px solid #eaeaea;
+}
+
+.footer {
+  width: 1152px;
+  height: 182px;
+  margin: 0 auto;
+}
+
+.container-footer {
+  text-align: center;
+  padding-top: 104px;
+}
+
+.footer-icon a {
+  text-align: center;
+  position: relative;
+}
+
+.facebook {
+  margin-right: 35px;
+}
+
+.instagram {
+  margin-right: 35px;
+}
+
+.twitter {
+  margin-right: 35px;
+}
+
+.facebook:hover {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.instagram:hover {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.twitter:hover {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.linkedin:hover {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.footer-end {
+  text-align: center;
+  padding-top: 26px;
+  padding-bottom: 54px;
+}
+
+.menu-icon {
+  display: none;
+}
