@@ -1,0 +1,45 @@
+@media (max-width: 1000px) {
+    .container header a {
+        display: none;
+    }
+
+    .mainlist {
+        padding: none;
+    }
+}
+
+@media (max-width: 670px) {
+    .header-right a {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        float: right;
+    }
+
+    .mainlist {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0 auto;
+    }
+
+    .container-main h1 {
+        padding-top: 24px;
+        padding-bottom: 18px;
+    }
+
+    .mainlist h2 {
+        margin-bottom: 5px;
+    }
+
+    .year {
+        margin: 5px;
+        margin-bottom: 17px;
+    }
+
+    .vector {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+}
