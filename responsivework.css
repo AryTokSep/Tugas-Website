@@ -1,72 +1,107 @@
-@media (max-width :1000px) {
-    .container-main {
-        padding: none;
-    }
+@media (max-width: 1000px) {
+  .container-main {
+    padding: none;
+  }
 
-    .worklist-web {
-        display: content;
-    }
-
+  .worklist-web {
+    display: content;
+  }
 }
 
-@media (max-width :670px) {
-    .header-right a {
-        display: none;
-    }
+@media (max-width: 670px) {
+  .header-right a {
+    display: none;
+  }
 
-    .menu-icon {
-        display: block;
-        float: right;
-    }
+  .menu-icon {
+    display: block;
+    float: right;
+  }
 
-    .container-main {
-        padding-left: 18px;
-        padding-right: 18px;
-        margin: 0 auto;
-    }
+  .container-main {
+    padding-left: 12px;
+    padding-right: 18px;
+    margin: 0 auto;
+  }
 
-    .container-main h1 {
-        padding-top: 36px;
-        padding-bottom: 13px;
-        font-size: 44px;
-    }
+  .container-main h1 {
+    padding-top: 36px;
+    padding-bottom: 13px;
+    font-size: 44px;
+  }
 
-    .picture {
-        width: 339px;
-        height: 230px;
-        padding-bottom: 17px;
-        padding-right: 1px;
-    }
+  .picture {
+    width: 339px;
+    height: 230px;
+    padding-bottom: 17px;
+  }
 
-    .line {
-        margin-top: 17px;
-    }
+  .line {
+    margin-top: 17px;
+  }
 
-    .text-content h2 {
-        font-size: 24px;
-        line-height: 30px;
-        padding-bottom: none;
-    }
+  .text-content h2 {
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: none;
+  }
 
-    .type {
-        font-size: 16px;
-        line-height: 24px;
-    }
+  .type {
+    font-size: 16px;
+    line-height: 24px;
+  }
 
-    .year {
-        font-size: 16px;
-    }
+  .year {
+    font-size: 16px;
+  }
 
-    .container-footer {
-        padding-top: none;
-    }
+  .container-footer {
+    padding-top: none;
+  }
 
-    .worklist-mob2 {
-        display: contents;
-    }
+  .worklist-mob2 {
+    display: contents;
+  }
 
-    .worklist-web {
-        display: none;
-    }
+  .worklist-web {
+    display: none;
+  }
 
+  .menu-icon ul {
+    list-style: none;
+    float: right;
+  }
+
+  .dropdown li {
+    list-style: none;
+  }
+
+  .menu-icon ul li .dropdown {
+    display: none;
+  }
+
+  .menu-icon ul li:hover .dropdown {
+    display: block;
+    background: #fff;
+    position: absolute;
+  }
+
+  .menu-icon ul li:hover .dropdown li {
+    display: block;
+  }
+
+  .title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #21243d;
+    list-style: none;
+    line-height: 30px;
+  }
+
+  .title:hover {
+    background: #edf7fa;
+    padding: 2px;
+    border-radius: 8px;
+    transition: 0.5s;
+  }
 }
