@@ -1,0 +1,72 @@
+@media (max-width :1000px) {
+    .container-main {
+        padding: none;
+    }
+
+    .worklist-web {
+        display: content;
+    }
+
+}
+
+@media (max-width :670px) {
+    .header-right a {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        float: right;
+    }
+
+    .container-main {
+        padding-left: 18px;
+        padding-right: 18px;
+        margin: 0 auto;
+    }
+
+    .container-main h1 {
+        padding-top: 36px;
+        padding-bottom: 13px;
+        font-size: 44px;
+    }
+
+    .picture {
+        width: 339px;
+        height: 230px;
+        padding-bottom: 17px;
+        padding-right: 1px;
+    }
+
+    .line {
+        margin-top: 17px;
+    }
+
+    .text-content h2 {
+        font-size: 24px;
+        line-height: 30px;
+        padding-bottom: none;
+    }
+
+    .type {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .year {
+        font-size: 16px;
+    }
+
+    .container-footer {
+        padding-top: none;
+    }
+
+    .worklist-mob2 {
+        display: contents;
+    }
+
+    .worklist-web {
+        display: none;
+    }
+
+}
