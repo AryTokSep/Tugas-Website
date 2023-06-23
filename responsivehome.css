@@ -1,0 +1,110 @@
+@media (max-width :1000px) {
+    .container-main {
+        padding: none;
+    }
+
+    .container-main2 {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width :670px) {
+    .header-right a {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        float: right;
+        padding-right: 10px;
+    }
+
+    .profile-picture {
+        padding-right: 60px;
+        padding-top: 33px;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .container-main1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .container-main1 h1 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .container-main1 p {
+        text-align: center;
+        font-size: 16px;
+        padding-top: 17px;
+    }
+
+    .btn-wrapper {
+        text-align: center;
+    }
+
+    .container-main2 {
+        width: 375px;
+        height: 647px;
+        flex-shrink: 0;
+    }
+
+    .container-main3 {
+        padding-left: 20px;
+    }
+
+    .featured {
+        font-size: 22px;
+        line-height: 60px;
+        text-align: center;
+        padding-right: 50px;
+    }
+
+    .view {
+        display: none;
+    }
+
+    .recent {
+        font-size: 22px;
+        line-height: 60px;
+        text-align: center;
+        padding-right: 100px;
+    }
+
+    .list {
+        display: block;
+        padding-left: 10px;
+    }
+
+    .list1 {
+        width: 354px;
+        height: 266px;
+        margin-bottom: 17px;
+    }
+
+    .list2 {
+        width: 354px;
+        height: 266px;
+        padding-right: 50px;
+   }
+
+    .picture {
+        width: 339px;
+        height: 230px;
+    }
+
+    .worklist {
+        padding-right: 20px;
+    }
+
+    .worklist-web {
+        display: none;
+    }
+}
