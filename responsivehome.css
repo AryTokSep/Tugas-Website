@@ -53,7 +53,6 @@
     .container-main2 {
         width: 375px;
         height: 647px;
-        flex-shrink: 0;
     }
 
     .container-main3 {
@@ -114,7 +113,7 @@
     }
     
     .dropdown li {
-        list-style: decimal;
+        list-style: none;
     }
     
     .menu-icon ul li .dropdown {
@@ -124,7 +123,7 @@
     .menu-icon ul li:hover .dropdown {
         display: block;
         background: #FFF;
-        position: absolute;
+        position: fixed;
     }
     
     .menu-icon ul li:hover .dropdown li {
@@ -145,4 +144,8 @@
         border-radius: 8px;
         transition: 0.5s;
     }
+}
+
+@keyframes zoom-out {
+    100% { transform: scale(2); }
 }
