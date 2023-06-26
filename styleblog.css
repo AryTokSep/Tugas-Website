@@ -14,7 +14,6 @@ body {
 
 .container {
   max-width: 1152px;
-  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -33,15 +32,25 @@ body {
   font-weight: bold;
   font-size: 20px;
   line-height: 29px;
-  color: #000000;
   margin-right: 29px;
+  color: #21243d;
+  
 }
 
 .header-right a:hover {
-  background-color: transparent;
+  background-color: #edf7fa;
   border-radius: 10px;
   padding: 5px;
   transition: 0.5s;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu-icon img:hover {
+  transform: scale(0.5) rotate(360deg);
+  transition: 1s;
 }
 
 .container-main {
@@ -136,28 +145,28 @@ body {
 }
 
 .facebook:hover {
-  background-color: transparent;
+  background-color: #edf7fa;
   border-radius: 5px;
   padding: 10px;
   transition: 0.5s;
 }
 
 .instagram:hover {
-  background-color: transparent;
+  background-color: #edf7fa;
   border-radius: 5px;
   padding: 10px;
   transition: 0.5s;
 }
 
 .twitter:hover {
-  background-color: transparent;
+  background-color: #edf7fa;
   border-radius: 5px;
   padding: 10px;
   transition: 0.5s;
 }
 
 .linkedin:hover {
-  background-color: transparent;
+  background-color: #edf7fa;
   border-radius: 5px;
   padding: 10px;
   transition: 0.5s;
@@ -167,8 +176,4 @@ body {
   text-align: center;
   padding-top: 26px;
   padding-bottom: 54px;
-}
-
-.menu-icon {
-  display: none;
 }
