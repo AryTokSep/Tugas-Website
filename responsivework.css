@@ -78,6 +78,7 @@
 
   .menu-icon ul li .dropdown {
     display: none;
+    transition: 10s;
   }
 
   .menu-icon ul li:hover .dropdown {
@@ -104,4 +105,8 @@
     border-radius: 8px;
     transition: 0.5s;
   }
+}
+
+@keyframes zoom-out {
+  100% { transform: scale(2); }
 }
